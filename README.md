@@ -1,5 +1,7 @@
 # Домашнее задание к лекции «Object, Reflection и Proxy»
 
+[![Build status](https://ci.appveyor.com/api/projects/status/v5yr18tjfw8xhc5o?svg=true)](https://ci.appveyor.com/project/Silverscreened19/ajs-advanced)
+
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
 **Важно**: код должен проходить ESLint без ошибок
@@ -75,14 +77,14 @@ const character = {
       name: 'Двойной выстрел',
       icon: 'http://...',
       description: 'Двойной выстрел наносит двойной урон'
-    }, 
+    },
     {
       id: 9,
       name: 'Нокаутирующий удар',
       icon: 'http://...'
       // <- обратите внимание, описание "засекречено"
     }
-  ]	
+  ]
 }
 ```
 
